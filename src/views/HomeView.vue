@@ -40,7 +40,7 @@ export default {
             if(newValue === true){
                 setTimeout(() => {
                     this.letter = true
-                }, 3000)
+                }, 2300)
             }
         }
     }

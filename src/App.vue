@@ -1,6 +1,6 @@
 <template>
   <header>
-      <img class="logo" src="./assets/Icon.svg" alt="Logo">
+      <img class="logo" src="./assets/Icon.svg" alt="Logo" title="Declare Love">
       <strong>love.love</strong>
   </header>
   <main>
