@@ -3,7 +3,7 @@
         <section class="container hero">
             <div v-if="letter === false">
                 <div v-if="start === false" class="box-password">
-                    <label>Password:</label>
+                    <label>Senha:</label>
                     <input :type="toogle ? 'text': 'password'" v-model="password">
                     <div class="eye">
                         <img @click="toogle = false" v-if="toogle" src="../assets/visibly.png" alt="visivel">
