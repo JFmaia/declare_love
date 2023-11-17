@@ -14,14 +14,14 @@
                     <img src="../assets/love_gif.gif" alt="gif de carregamento">
                 </div>
             </div>
-            <div v-else>
-                <h1>carrocel</h1>
-            </div>
+            <Carrossel v-else />
         </section>
     </div>
 </template>
 <script>
+import Carrossel from '@/components/MyCarrossel.vue'
 export default {
+    components:{Carrossel},
     data(){
         return{
             password:'',
@@ -56,6 +56,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .box-password{

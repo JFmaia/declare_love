@@ -1,7 +1,7 @@
 <template>
   <header>
       <img class="logo" src="./assets/Icon.svg" alt="Logo" title="Declare Love">
-      <strong>love.love</strong>
+      <strong title="gosto de tii !!!">love.love</strong>
   </header>
   <main>
     <router-view></router-view>
@@ -25,5 +25,9 @@ header {
 .logo {
   height: 40px;
   width: 40px;
+}
+
+header strong {
+  cursor: default;
 }
 </style>
